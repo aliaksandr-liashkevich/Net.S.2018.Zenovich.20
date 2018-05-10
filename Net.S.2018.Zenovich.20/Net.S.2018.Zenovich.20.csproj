@@ -42,6 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AntiSolid\L\BadItem.cs" />
+    <Compile Include="AntiSolid\L\DublicateItemList.cs" />
+    <Compile Include="AntiSolid\L\IList.cs" />
+    <Compile Include="AntiSolid\L\ItemList.cs" />
+    <Compile Include="AntiSolid\O\Logger.cs" />
+    <Compile Include="AntiSolid\O\Mailer.cs" />
     <Compile Include="AntiSolid\S\Item.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -52,8 +58,6 @@
   <ItemGroup>
     <Folder Include="AntiSolid\D\" />
     <Folder Include="AntiSolid\I\" />
-    <Folder Include="AntiSolid\L\" />
-    <Folder Include="AntiSolid\O\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
